@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F72FC16F5D8C70F532317E3 /* alphaMask_GL2.frag in Sources */ = {isa = PBXBuildFile; fileRef = E3D0D0CBB99F266909832764 /* alphaMask_GL2.frag */; };
+		352FF1551EF73A7E0058BC83 /* cb3_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF1531EF73A7E0058BC83 /* cb3_border.cpp */; };
+		352FF1581EF73AEF0058BC83 /* color_bands3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF1561EF73AEF0058BC83 /* color_bands3.cpp */; };
+		352FF15C1EF748880058BC83 /* cb4_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF15A1EF748880058BC83 /* cb4_border.cpp */; };
+		352FF15F1EF748FC0058BC83 /* color_bands4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF15D1EF748FC0058BC83 /* color_bands4.cpp */; };
+		35E21B261EF6287F004D70AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B181EF6287F004D70AE /* main.cpp */; };
+		35E21B271EF6287F004D70AE /* color_bands1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B1B1EF6287F004D70AE /* color_bands1.cpp */; };
+		35E21B281EF6287F004D70AE /* cband.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B1D1EF6287F004D70AE /* cband.cpp */; };
+		35E21B291EF6287F004D70AE /* cband_vertical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B1F1EF6287F004D70AE /* cband_vertical.cpp */; };
+		35E21B2A1EF6287F004D70AE /* cband_arc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B211EF6287F004D70AE /* cband_arc.cpp */; };
+		35E21B2B1EF6287F004D70AE /* cband_angled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B231EF6287F004D70AE /* cband_angled.cpp */; };
+		35E21B2C1EF6287F004D70AE /* cb1_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B251EF6287F004D70AE /* cb1_border.cpp */; };
+		35E21B321EF629A1004D70AE /* cb2_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B301EF629A1004D70AE /* cb2_border.cpp */; };
+		35E21B351EF629D9004D70AE /* color_bands2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E21B331EF629D9004D70AE /* color_bands2.cpp */; };
+		7109C5297DF12D28548F1E82 /* alphaMask_GL3.frag in Sources */ = {isa = PBXBuildFile; fileRef = 94CC084F31DBD2C66E3DBEB9 /* alphaMask_GL3.frag */; };
+		7EFF2709948EE75A4BA3BF80 /* alphaMask_GL3.vert in Sources */ = {isa = PBXBuildFile; fileRef = 95F5452C58F13212B5099E64 /* alphaMask_GL3.vert */; };
+		853F053FBB0E1A5C69AE0829 /* ofxLayerMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9E4628DEE13794A92581E42 /* ofxLayerMask.cpp */; };
+		CFC55146A17C49881A095458 /* alphaMask_GL2.vert in Sources */ = {isa = PBXBuildFile; fileRef = 6B1EE0E710D517C3317B38A7 /* alphaMask_GL2.vert */; };
+		D57D6AE7066A76AF5E633AC8 /* alphaMask_ES2.vert in Sources */ = {isa = PBXBuildFile; fileRef = C48B1EA263E7E4D4C4D70C16 /* alphaMask_ES2.vert */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		F9BB26B7E6520AF05BBFAA14 /* alphaMask_ES2.frag in Sources */ = {isa = PBXBuildFile; fileRef = 2E0493A3C19C349A27FC7D25 /* alphaMask_ES2.frag */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E0493A3C19C349A27FC7D25 /* alphaMask_ES2.frag */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_ES2.frag; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_ES2.frag; sourceTree = SOURCE_ROOT; };
+		352FF1531EF73A7E0058BC83 /* cb3_border.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cb3_border.cpp; sourceTree = "<group>"; };
+		352FF1541EF73A7E0058BC83 /* cb3_border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cb3_border.h; sourceTree = "<group>"; };
+		352FF1561EF73AEF0058BC83 /* color_bands3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color_bands3.cpp; sourceTree = "<group>"; };
+		352FF1571EF73AEF0058BC83 /* color_bands3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_bands3.h; sourceTree = "<group>"; };
+		352FF15A1EF748880058BC83 /* cb4_border.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cb4_border.cpp; sourceTree = "<group>"; };
+		352FF15B1EF748880058BC83 /* cb4_border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cb4_border.h; sourceTree = "<group>"; };
+		352FF15D1EF748FC0058BC83 /* color_bands4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color_bands4.cpp; sourceTree = "<group>"; };
+		352FF15E1EF748FC0058BC83 /* color_bands4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_bands4.h; sourceTree = "<group>"; };
+		35E21B181EF6287F004D70AE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		35E21B191EF6287F004D70AE /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		35E21B1A1EF6287F004D70AE /* color_bands1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_bands1.h; sourceTree = "<group>"; };
+		35E21B1B1EF6287F004D70AE /* color_bands1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color_bands1.cpp; sourceTree = "<group>"; };
+		35E21B1C1EF6287F004D70AE /* cband.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cband.h; sourceTree = "<group>"; };
+		35E21B1D1EF6287F004D70AE /* cband.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cband.cpp; sourceTree = "<group>"; };
+		35E21B1E1EF6287F004D70AE /* cband_vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cband_vertical.h; sourceTree = "<group>"; };
+		35E21B1F1EF6287F004D70AE /* cband_vertical.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cband_vertical.cpp; sourceTree = "<group>"; };
+		35E21B201EF6287F004D70AE /* cband_arc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cband_arc.h; sourceTree = "<group>"; };
+		35E21B211EF6287F004D70AE /* cband_arc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cband_arc.cpp; sourceTree = "<group>"; };
+		35E21B221EF6287F004D70AE /* cband_angled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cband_angled.h; sourceTree = "<group>"; };
+		35E21B231EF6287F004D70AE /* cband_angled.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cband_angled.cpp; sourceTree = "<group>"; };
+		35E21B241EF6287F004D70AE /* cb1_border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cb1_border.h; sourceTree = "<group>"; };
+		35E21B251EF6287F004D70AE /* cb1_border.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cb1_border.cpp; sourceTree = "<group>"; };
+		35E21B301EF629A1004D70AE /* cb2_border.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cb2_border.cpp; sourceTree = "<group>"; };
+		35E21B311EF629A1004D70AE /* cb2_border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cb2_border.h; sourceTree = "<group>"; };
+		35E21B331EF629D9004D70AE /* color_bands2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color_bands2.cpp; sourceTree = "<group>"; };
+		35E21B341EF629D9004D70AE /* color_bands2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_bands2.h; sourceTree = "<group>"; };
+		458AE5917CB33942884049CC /* ofxLayerMask.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLayerMask.h; path = ../../../addons/ofxLayerMask/src/ofxLayerMask.h; sourceTree = SOURCE_ROOT; };
+		6B1EE0E710D517C3317B38A7 /* alphaMask_GL2.vert */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_GL2.vert; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_GL2.vert; sourceTree = SOURCE_ROOT; };
+		94CC084F31DBD2C66E3DBEB9 /* alphaMask_GL3.frag */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_GL3.frag; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_GL3.frag; sourceTree = SOURCE_ROOT; };
+		95F5452C58F13212B5099E64 /* alphaMask_GL3.vert */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_GL3.vert; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_GL3.vert; sourceTree = SOURCE_ROOT; };
+		A9E4628DEE13794A92581E42 /* ofxLayerMask.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLayerMask.cpp; path = ../../../addons/ofxLayerMask/src/ofxLayerMask.cpp; sourceTree = SOURCE_ROOT; };
+		C48B1EA263E7E4D4C4D70C16 /* alphaMask_ES2.vert */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_ES2.vert; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_ES2.vert; sourceTree = SOURCE_ROOT; };
+		E3D0D0CBB99F266909832764 /* alphaMask_GL2.frag */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_GL2.frag; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_GL2.frag; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* SolLewitt_ColorBandsDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolLewitt_ColorBandsDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		352FF1521EF73A520058BC83 /* ColorBands3 */ = {
+			isa = PBXGroup;
+			children = (
+				352FF1531EF73A7E0058BC83 /* cb3_border.cpp */,
+				352FF1541EF73A7E0058BC83 /* cb3_border.h */,
+				352FF1561EF73AEF0058BC83 /* color_bands3.cpp */,
+				352FF1571EF73AEF0058BC83 /* color_bands3.h */,
+			);
+			name = ColorBands3;
+			sourceTree = "<group>";
+		};
+		352FF1591EF748710058BC83 /* ColorBands4 */ = {
+			isa = PBXGroup;
+			children = (
+				352FF15B1EF748880058BC83 /* cb4_border.h */,
+				352FF15A1EF748880058BC83 /* cb4_border.cpp */,
+				352FF15D1EF748FC0058BC83 /* color_bands4.cpp */,
+				352FF15E1EF748FC0058BC83 /* color_bands4.h */,
+			);
+			name = ColorBands4;
+			sourceTree = "<group>";
+		};
+		35E21B2D1EF62886004D70AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				35E21B191EF6287F004D70AE /* constants.h */,
+				35E21B1C1EF6287F004D70AE /* cband.h */,
+				35E21B1D1EF6287F004D70AE /* cband.cpp */,
+				35E21B1E1EF6287F004D70AE /* cband_vertical.h */,
+				35E21B1F1EF6287F004D70AE /* cband_vertical.cpp */,
+				35E21B201EF6287F004D70AE /* cband_arc.h */,
+				35E21B211EF6287F004D70AE /* cband_arc.cpp */,
+				35E21B221EF6287F004D70AE /* cband_angled.h */,
+				35E21B231EF6287F004D70AE /* cband_angled.cpp */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		35E21B2E1EF6288B004D70AE /* ColorBands1 */ = {
+			isa = PBXGroup;
+			children = (
+				35E21B1A1EF6287F004D70AE /* color_bands1.h */,
+				35E21B1B1EF6287F004D70AE /* color_bands1.cpp */,
+				35E21B241EF6287F004D70AE /* cb1_border.h */,
+				35E21B251EF6287F004D70AE /* cb1_border.cpp */,
+			);
+			name = ColorBands1;
+			sourceTree = "<group>";
+		};
+		35E21B2F1EF6291E004D70AE /* ColorBands2 */ = {
+			isa = PBXGroup;
+			children = (
+				35E21B301EF629A1004D70AE /* cb2_border.cpp */,
+				35E21B311EF629A1004D70AE /* cb2_border.h */,
+				35E21B331EF629D9004D70AE /* color_bands2.cpp */,
+				35E21B341EF629D9004D70AE /* color_bands2.h */,
+			);
+			name = ColorBands2;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				DB48ECEB4A5AD24AB25E3141 /* ofxLayerMask */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		DB48ECEB4A5AD24AB25E3141 /* ofxLayerMask */ = {
+			isa = PBXGroup;
+			children = (
+				F996C14C51CDE505FA9BD196 /* src */,
+			);
+			name = ofxLayerMask;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* SolLewitt_ColorBandsDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				352FF1591EF748710058BC83 /* ColorBands4 */,
+				352FF1521EF73A520058BC83 /* ColorBands3 */,
+				35E21B2F1EF6291E004D70AE /* ColorBands2 */,
+				35E21B2E1EF6288B004D70AE /* ColorBands1 */,
+				35E21B2D1EF62886004D70AE /* Common */,
+				35E21B181EF6287F004D70AE /* main.cpp */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		E74DC01A078204FA75FD4D0D /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				2E0493A3C19C349A27FC7D25 /* alphaMask_ES2.frag */,
+				C48B1EA263E7E4D4C4D70C16 /* alphaMask_ES2.vert */,
+				E3D0D0CBB99F266909832764 /* alphaMask_GL2.frag */,
+				6B1EE0E710D517C3317B38A7 /* alphaMask_GL2.vert */,
+				94CC084F31DBD2C66E3DBEB9 /* alphaMask_GL3.frag */,
+				95F5452C58F13212B5099E64 /* alphaMask_GL3.vert */,
+			);
+			name = shader;
+			sourceTree = "<group>";
+		};
+		F996C14C51CDE505FA9BD196 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A9E4628DEE13794A92581E42 /* ofxLayerMask.cpp */,
+				458AE5917CB33942884049CC /* ofxLayerMask.h */,
+				E74DC01A078204FA75FD4D0D /* shader */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* SolLewitt_ColorBands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "SolLewitt_ColorBands" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = SolLewitt_ColorBands;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* SolLewitt_ColorBandsDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "SolLewitt_ColorBands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* SolLewitt_ColorBands */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				352FF15C1EF748880058BC83 /* cb4_border.cpp in Sources */,
+				352FF1581EF73AEF0058BC83 /* color_bands3.cpp in Sources */,
+				35E21B351EF629D9004D70AE /* color_bands2.cpp in Sources */,
+				35E21B271EF6287F004D70AE /* color_bands1.cpp in Sources */,
+				853F053FBB0E1A5C69AE0829 /* ofxLayerMask.cpp in Sources */,
+				F9BB26B7E6520AF05BBFAA14 /* alphaMask_ES2.frag in Sources */,
+				35E21B291EF6287F004D70AE /* cband_vertical.cpp in Sources */,
+				35E21B321EF629A1004D70AE /* cb2_border.cpp in Sources */,
+				D57D6AE7066A76AF5E633AC8 /* alphaMask_ES2.vert in Sources */,
+				35E21B281EF6287F004D70AE /* cband.cpp in Sources */,
+				0F72FC16F5D8C70F532317E3 /* alphaMask_GL2.frag in Sources */,
+				35E21B2A1EF6287F004D70AE /* cband_arc.cpp in Sources */,
+				CFC55146A17C49881A095458 /* alphaMask_GL2.vert in Sources */,
+				35E21B2B1EF6287F004D70AE /* cband_angled.cpp in Sources */,
+				7109C5297DF12D28548F1E82 /* alphaMask_GL3.frag in Sources */,
+				352FF15F1EF748FC0058BC83 /* color_bands4.cpp in Sources */,
+				35E21B261EF6287F004D70AE /* main.cpp in Sources */,
+				7EFF2709948EE75A4BA3BF80 /* alphaMask_GL3.vert in Sources */,
+				35E21B2C1EF6287F004D70AE /* cb1_border.cpp in Sources */,
+				352FF1551EF73A7E0058BC83 /* cb3_border.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxLayerMask/src,
+					../../../addons/ofxLayerMask/src/shader,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxLayerMask/src,
+					../../../addons/ofxLayerMask/src/shader,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxLayerMask/src,
+					../../../addons/ofxLayerMask/src/shader,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../addons/ofxLayerMask/src,
+					../../../addons/ofxLayerMask/src/shader,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "SolLewitt_ColorBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "SolLewitt_ColorBands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
