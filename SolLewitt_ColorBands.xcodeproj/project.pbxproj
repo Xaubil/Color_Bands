@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F72FC16F5D8C70F532317E3 /* alphaMask_GL2.frag in Sources */ = {isa = PBXBuildFile; fileRef = E3D0D0CBB99F266909832764 /* alphaMask_GL2.frag */; };
+		3512C1FD1EF8C0320021B0C8 /* color_bands5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3512C1FB1EF8C0320021B0C8 /* color_bands5.cpp */; };
 		352FF1551EF73A7E0058BC83 /* cb3_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF1531EF73A7E0058BC83 /* cb3_border.cpp */; };
 		352FF1581EF73AEF0058BC83 /* color_bands3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF1561EF73AEF0058BC83 /* color_bands3.cpp */; };
 		352FF15C1EF748880058BC83 /* cb4_border.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 352FF15A1EF748880058BC83 /* cb4_border.cpp */; };
@@ -61,6 +62,8 @@
 
 /* Begin PBXFileReference section */
 		2E0493A3C19C349A27FC7D25 /* alphaMask_ES2.frag */ = {isa = PBXFileReference; explicitFileType = file; fileEncoding = 30; name = alphaMask_ES2.frag; path = ../../../addons/ofxLayerMask/src/shader/alphaMask_ES2.frag; sourceTree = SOURCE_ROOT; };
+		3512C1FB1EF8C0320021B0C8 /* color_bands5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color_bands5.cpp; sourceTree = "<group>"; };
+		3512C1FC1EF8C0320021B0C8 /* color_bands5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color_bands5.h; sourceTree = "<group>"; };
 		352FF1531EF73A7E0058BC83 /* cb3_border.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cb3_border.cpp; sourceTree = "<group>"; };
 		352FF1541EF73A7E0058BC83 /* cb3_border.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cb3_border.h; sourceTree = "<group>"; };
 		352FF1561EF73AEF0058BC83 /* color_bands3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color_bands3.cpp; sourceTree = "<group>"; };
@@ -113,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3512C1FA1EF8C0030021B0C8 /* ColorBands5 */ = {
+			isa = PBXGroup;
+			children = (
+				3512C1FB1EF8C0320021B0C8 /* color_bands5.cpp */,
+				3512C1FC1EF8C0320021B0C8 /* color_bands5.h */,
+			);
+			name = ColorBands5;
+			sourceTree = "<group>";
+		};
 		352FF1521EF73A520058BC83 /* ColorBands3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +232,7 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				3512C1FA1EF8C0030021B0C8 /* ColorBands5 */,
 				352FF1591EF748710058BC83 /* ColorBands4 */,
 				352FF1521EF73A520058BC83 /* ColorBands3 */,
 				35E21B2F1EF6291E004D70AE /* ColorBands2 */,
@@ -369,6 +382,7 @@
 				7EFF2709948EE75A4BA3BF80 /* alphaMask_GL3.vert in Sources */,
 				35E21B2C1EF6287F004D70AE /* cb1_border.cpp in Sources */,
 				352FF1551EF73A7E0058BC83 /* cb3_border.cpp in Sources */,
+				3512C1FD1EF8C0320021B0C8 /* color_bands5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

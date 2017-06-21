@@ -3,6 +3,7 @@
 #include "color_bands2.h"
 #include "color_bands3.h"
 #include "color_bands4.h"
+#include "color_bands5.h"
 #include "ofAppGlutWindow.h"
 
 //========================================================================
@@ -14,6 +15,6 @@ int main()
 	// this kicks off the running of my app
 	// can be OF_WINDOW or OF_FULLSCREEN
 	// pass in width and height too:
-	ofRunApp(new ColorBands1());
+	ofRunApp(new ColorBands5());
 
 }

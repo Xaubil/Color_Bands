@@ -20,8 +20,6 @@ void CBand::init(int lcount, float lcalc, ofRectangle bounds)
     color_bands = new ofPath[line_count];
     last_color = new ofColor[line_count];
     color_set = new SolColors[line_count];
-    
-    framerate = ofGetFrameRate();
 }
 
 void CBand::setup()

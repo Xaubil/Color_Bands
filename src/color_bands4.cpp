@@ -11,7 +11,6 @@
 //--------------------------------------------------------------
 void ColorBands4::setup()
 {
-    
     framerate = 60;
     ofSetFrameRate(framerate);
     ofSetCurveResolution(100);
@@ -171,8 +170,6 @@ void ColorBands4::draw()
     mask4.endLayer();
     
     mask4.draw();
-    
-    band4.draw(0, 0);
 }
 
 //--------------------------------------------------------------
