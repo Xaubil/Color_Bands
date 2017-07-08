@@ -16,11 +16,11 @@ using namespace Constants;
 
 class CBand {
 public:
-    void init(int lcount, float lcalc, ofRectangle bounds);
-    void setColors(SolColors *colors);
-    void setup();
-    void draw();
-    virtual ofColor getColorBasedOnMode(int mode, int n, int frame, int idx) = 0;
+    void        init(int lcount, float lcalc, ofRectangle bounds);
+    void        setColors(SolColors *colors);
+    void        setup();
+    void        draw();
+    virtual     ofColor getColorBasedOnMode(int mode, int n, int frame, int idx) = 0;
     
     ~CBand() {
         if(color_bands) {

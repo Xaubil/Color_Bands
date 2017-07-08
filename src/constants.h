@@ -34,9 +34,9 @@ namespace Constants {
     const float DIMENSION_Y  = 620.0f;
     const float BORDER_WIDTH = 30.0f;
 
-    const int BORDER_COLOR = 0;
-    const int BACKGROUND_COLOR = 0;
-    const int sol_colors[] = {
+    const int   BORDER_COLOR = 0;
+    const int   BACKGROUND_COLOR = 0;
+    const int   sol_colors[] = {
         0x3b275a,   /* PURPLE */
         0xffd00f,   /* YELLOW */
         0xc6081e,   /* RED */

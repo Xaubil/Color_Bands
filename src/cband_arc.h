@@ -13,13 +13,14 @@
 
 class CBandArc : public CBand {
 public:
-    void init(int lcount, float lcalcs, ofRectangle bounds, float ang1, float ang2);
-    void setup();
-    void draw(int mode, int n = 0);
-    ofColor getColorBasedOnMode(int mode, int n, int frame, int idx);
+    void        init(int lcount, float lcalcs, ofRectangle bounds, float ang1, float ang2);
+    void        setup();
+    void        draw(int mode, int n = 0);
     
-    float start_angle;
-    float end_angle;
+protected:
+    ofColor     getColorBasedOnMode(int mode, int n, int frame, int idx);
+    float       start_angle;
+    float       end_angle;
 };
 
 

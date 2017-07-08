@@ -22,26 +22,24 @@ using namespace Constants;
 class ColorBands4 : public ofBaseApp {
     
 public:
-    void setup();
-    void draw();
-    
-    void keyPressed(int key);
-    
-    ofxLayerMask mask1, mask2, mask3, mask4;
-    CB4Border1 border1;
-    CB4Border2 border2;
-    CB4Border3 border3;
-    CB4Border4 border4;
-    CBandAngled band1;
-    CBandArc band2;
-    CBandArc band3;
-    CBandVertical band4;
-    
-    int framerate;
-    int mode;
-    int last_color;
-    
-    float line_width;
+    void            setup();
+    void            draw();
+    void            keyPressed(int key);
+
+private:
+    ofxLayerMask    mask1, mask2, mask3, mask4;
+    CB4Border1      border1;
+    CB4Border2      border2;
+    CB4Border3      border3;
+    CB4Border4      border4;
+    CBandAngled     band1;
+    CBandArc        band2;
+    CBandArc        band3;
+    CBandVertical   band4;
+    int             framerate;
+    int             mode;
+    int             last_color;
+    float           line_width;
 };
 
 

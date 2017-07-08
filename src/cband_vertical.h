@@ -13,12 +13,14 @@
 
 class CBandVertical : public CBand {
 public:
-    void init(int lcount, float lcalc, ofRectangle bounds, bool horizontal = false);
-    void setup();
-    void draw(int mode, int n = 0);
-    ofColor getColorBasedOnMode(int mode, int n, int frame, int idx);
+    void        init(int lcount, float lcalc, ofRectangle bounds, bool horizontal = false);
+    void        setup();
+    void        draw(int mode, int n = 0);
     
-    bool horizontal;
+protected:
+    ofColor     getColorBasedOnMode(int mode, int n, int frame, int idx);
+    ofColor     getGradientColor(int x, ofColor thisColor, ofColor prevColor, ofColor nextColor);
+    bool        horizontal;
 };
 
 #endif /* cband_vertical_h */

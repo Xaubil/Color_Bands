@@ -42,6 +42,17 @@ void CBandVertical::setup()
     }
 }
 
+ofColor CBandVertical::getGradientColor(int x, ofColor thisColor, ofColor prevColor, ofColor nextColor)
+{
+    ofColor color = thisColor;
+    if(x < line_width) {
+        color = ofColor::fromHsb(x/line_width/2 * thisColor.getHue() + (x + line_width/2)/line_width/2 * prevColor.getHue(), 255, 255);
+    } else if (x > line_width) {
+        color = ofColor::fromHsb((x - line_width/2)/line_width/2 * thisColor.getHue() + (x + line_width/2)/line_width/2 * nextColor.getHue(), 255, 255);
+    }
+    return color;
+}
+
 ofColor CBandVertical::getColorBasedOnMode(int mode, int n, int frame, int idx)
 {
     ofColor color;
@@ -67,9 +78,21 @@ void CBandVertical::draw(int mode, int n)
 {
     ofColor color;
     int frame = ofGetFrameNum();
-    for (int i=0; i<line_count; i++) {
-        color = getColorBasedOnMode(mode, n, frame, i);
-        color_bands[i].setFillColor(color);
-        color_bands[i].draw();
+    
+    if(mode == 3) {
+        for(int x=0; x<boundx; x++) {
+            ofColor color;
+            int len = sizeof(color_set)/sizeof(ofColor);
+            int thisIdx = x/line_width;
+            ofColor prev = sol_colors[color_set[(thisIdx - 1 + len) % len]];
+            ofColor next = sol_colors[color_set[(thisIdx + 1) % len]];
+            color = getGradientColor(x, sol_colors[thisIdx], prev, next);
+        }
+    } else {
+        for (int i=0; i<line_count; i++) {
+            color = getColorBasedOnMode(mode, n, frame, i);
+            color_bands[i].setFillColor(color);
+            color_bands[i].draw();
+        }
     }
 }
